@@ -1,0 +1,25 @@
+.DisplayImageBodyContainer {
+    max-width: 100%;
+}
+
+.DisplayImageBody {
+    max-width: 80%;
+    margin-inline: auto;
+    background-color: #424549;
+    color:white;
+    border-radius: 10px;
+    padding: 5%;
+    align-items: center;
+}
+
+.DisplayImageImage {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.DisplayImageText {
+    color:white;
+    font-family:"Abel", sans-serif;
+    font-size: clamp(0.6rem, 2.5vw, 2.8rem);
+    padding-bottom: 5%;
+}
